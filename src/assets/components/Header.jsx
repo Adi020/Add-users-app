@@ -6,7 +6,7 @@ const Header = ({changeShowModal}) => {
 
           <h1 className=' left-0 font-bold text-3xl '>Usuarios</h1>
 
-          <button onClick={changeShowModal} className='btn-primary right-0'><i className='bx bx-plus'></i>Crear nuevo usuario</button>
+          <button className='btn-primary' onClick={changeShowModal} ><i className='bx bx-plus'></i>Crear nuevo usuario</button>
 
         
       </section>
