@@ -5,7 +5,7 @@ import Header from './assets/components/Header'
 import axios from 'axios'
 import UserList from './assets/components/UserList'
 
-const BASE_URL = "https://users-crud.academlo.tech"
+const BASE_URL = "https://users-crud-dev-rmeq.3.us-1.fl0.io"
 
 const DEFAULT_VALUES = {
   birthday: "",
@@ -63,7 +63,7 @@ function App() {
     const url = BASE_URL + `/users/${isUserToUpdate.id}/`;
 
     axios
-    .patch(url, data)
+    .put(url, data)
     .then(() => {
       getAllUsers()
       resetModalForm(reset)
