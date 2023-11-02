@@ -19,7 +19,7 @@ function App() {
   const [isUserToUpdate, setIsUserToUpdate] = useState(null);
   const [isShowModal, setIsShowModal] = useState(false);
   const [users, setUsers] = useState([]);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const changeShowModal = () => setIsShowModal(!isShowModal);
 
