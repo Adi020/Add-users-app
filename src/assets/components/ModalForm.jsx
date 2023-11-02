@@ -38,7 +38,7 @@ const ModalForm = ({
     >
       <form
         onSubmit={handleSubmit(submit)}
-        className={`${isDarkMode ? "" : "darkMode bg-neutral-800"} bg-white w-[280px] p-4 grid gap-6 relative`}
+        className={`${isDarkMode ? "" : "darkMode bg-neutral-800"} w-[280px] p-4 grid gap-6 relative`}
       >
         <h3 className={`${isDarkMode ? "whiteMode" : "darkMode text-slate-100"}  font-bold text text-3xl`}>
           {isUserToUpdate ? "Editar Usuario" : "Nuevo Usuario"}
