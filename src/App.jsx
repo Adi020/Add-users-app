@@ -68,10 +68,6 @@ function App() {
       .catch((err) => console.log(err));
   };
 
-  const handleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-
   const resetModalForm = (reset) => {
     setIsShowModal(false);
     reset(DEFAULT_VALUES);
@@ -107,7 +103,7 @@ function App() {
           className={`fixed ${
             isDarkMode ? "text-yellow-400" : " text-blue-400"
           } max-[640px]:right-2 right-4 bottom-2 text-4xl`}
-          onClick={handleDarkMode}
+          onClick={setIsDarkMode(!isDarkMode)}
         >
           <i
             className={`icon-transition bx ${
