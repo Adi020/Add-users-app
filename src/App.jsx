@@ -103,7 +103,7 @@ function App() {
           className={`fixed ${
             isDarkMode ? "text-yellow-400" : " text-blue-400"
           } max-[640px]:right-2 right-4 bottom-2 text-4xl`}
-          onClick={setIsDarkMode(!isDarkMode)}
+          onClick={() => setIsDarkMode(!isDarkMode)}
         >
           <i
             className={`icon-transition bx ${
