@@ -1,13 +1,7 @@
 .darkMode {
-  transition: background-color 0.5s ease;
+  transition: color 0.5s ease, background-color 0.5s ease;
 }
 
 .whiteMode {
-  transition: background-color 0.5s ease;
+  transition: color 0.5s ease, background-color 0.5s ease;
 }
-
-
-.rodrigo {
-    background-color: aqua;
-}
-
