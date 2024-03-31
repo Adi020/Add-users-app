@@ -5,7 +5,7 @@ import Header from "./assets/components/Header";
 import axios from "axios";
 import UserList from "./assets/components/UserList";
 
-const BASE_URL = "https://users-crud-dev-rmeq.3.us-1.fl0.io";
+const BASE_URL = "https://users-crud.academlo.tech";
 
 const DEFAULT_VALUES = {
   birthday: "",
