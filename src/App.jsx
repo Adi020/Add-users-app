@@ -5,7 +5,7 @@ import Header from "./assets/components/Header";
 import axios from "axios";
 import UserList from "./assets/components/UserList";
 
-const BASE_URL = "https://users-crud.academlo.tech";
+const BASE_URL = "https://users-crud-4fxo.onrender.com";
 
 const DEFAULT_VALUES = {
   birthday: "",
